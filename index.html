@@ -1,95 +1,154 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" style="font-family: 'Roboto Condensed', sans-serif;">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <title>MiPortafolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
 
 <body>
-    <div>
-        <div class="header-blue">
-            <nav class="navbar navbar-light navbar-expand-md navigation-clean-search">
-                <div class="container-fluid"><a class="navbar-brand" href="#">Company Name</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navcol-1">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown </a>
-                                <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
-                            </li>
-                        </ul>
-                        <form class="form-inline mr-auto" target="_self">
-                            <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" id="search-field" name="search"></div>
-                        </form><span class="navbar-text"> <a class="login" href="#">Log In</a></span><a class="btn btn-light action-button" role="button" href="#">Sign Up</a>
-                    </div>
+    <header class="header-dark" style="height: 100vh;">
+        <nav class="navbar navbar-dark navbar-expand-lg navigation-clean-search">
+            <div class="container"><a class="navbar-brand" style="font-family: 'Roboto Condensed', sans-serif;font-size: 24px;" href="#">ezero0</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1" style="font-family: 'Roboto Condensed', sans-serif;font-size: 20px;">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#about">Acerca de</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Mis Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cv">Mi Curriculum Vitae</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contactame</a></li>
+                    </ul>
                 </div>
-            </nav>
-            <div class="container hero">
-                <div class="row">
-                    <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
-                        <h1>¡Bienvenido!</h1>
-                        <p>Mi nombre es Esaú Acosta, gracias por interesarte en mi trabajo.<br></p><button class="btn btn-light btn-lg action-button" type="button">Mis Proyectos<br></button>
+            </div>
+        </nav>
+        <div class="container align-middle" style="height: 100%;">
+            <div class="row" style="height: 100%;">
+                <div class="col-md-8 offset-md-2 align-self-center" style="font-family: 'Roboto Condensed', sans-serif;color: rgb(255,255,255);">
+                    <h1 class="text-center" style="font-size: 10vh;">¡Hola! Soy Esaú Acosta.<br></h1>
+                    <p class="text-center" style="font-size: 4vh;">Desarrollo Aplicaciones Web con JavaScript, jQuery, Bootstrap V5.0 y PHP.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container" id="about" style="padding-top: 10vh;padding-bottom: 10vh;font-family: 'Roboto Condensed', sans-serif;">
+        <div class="row">
+            <div class="col-md-6" style="text-align: center;">
+                <picture><img src="assets/img/1608250383876.jpeg" style="width: 33%;border-radius: 100px;text-align: center;"></picture>
+                <h2>Sobre mi</h2>
+                <p class="text-start">Soy de Ciudad de México, México. Desde temprana edad me interese en el mundo de la programación a través de lenguajes como Basic, Pascal y C. Curse mi educación técnica en Bachillerato Plantel Azteca de 2012 a 2015 y actualmente curso la Ingeniería en Computación en la Universidad Autónoma Metropolitana - Unidad Azcapotzalco.&nbsp;<br></p>
+            </div>
+            <div class="col-md-6">
+                <div style="padding-bottom: 2vh;">
+                    <h2>Experiencia Profesional</h2>
+                    <div>
+                        <h3>PowerSelf® Technologies Group S.A de C.V</h3>
+                        <p class="text-start">Puesto: Ingeniero de Servicio Jr<br>2019 - Actualidad</p>
                     </div>
-                    <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder"><img></div>
+                    <div></div>
+                </div>
+                <div>
+                    <h2>Educación</h2>
+                    <div>
+                        <h3>Ingeniería en Computación (85% completado)</h3>
+                        <p class="text-start">Universidad Autonoma Metropolitana - Unidad Azcapotzalco&nbsp;<br>2015 - Actualidad</p>
+                    </div>
+                    <div>
+                        <h3>Técnico en Computación</h3>
+                        <p class="text-start">Bachillerato Plantel Azteca<br>2012-2015</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><img><a class="navbar-brand logo" href="#" style="font-size: 21px;">Esaú Acosta Lara<br></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Diplomas&nbsp;<br>y certificados</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cv.html">Curriculum</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cv.html">Mis proyectos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="hire-me.html">Contactame</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <main class="page lanidng-page"></main>
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Mis proyectos</h1>
+    <div class="container" id="projects">
+        <section class="projects-horizontal">
+            <div class="container" style="font-family: 'Roboto Condensed', sans-serif;">
+                <div class="intro">
+                    <h2 class="text-center">Proyectos laborales</h2>
+                    <p class="text-center"></p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">Communication Between Linux/Unix Users</h4>
-                            <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                            <p class="card-text">Many years ago, when there was no MSN and not even think about WhatsApp,<br> the administrators of Linux / Unix servers had to have constant <br>communication with the people who were connected to those servers. The following program is a chat between users of these systems <br>connected to the same server.&nbsp;</p><a class="card-link" href="#">Link</a>
+                <div class="row projects">
+                    <div class="col-sm-6 item">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-5 align-self-center"><a href="#"><img class="img-fluid" src="assets/img/issabel.jpeg"></a></div>
+                            <div class="col">
+                                <h3 class="name">Script envió de Registros de Issabel PBX a CRM Bitrix24</h3>
+                                <p class="description">Obtiene registros de llamadas de conmutador Issabel PBX al registro de actividad telefónica de CRM Bitrix24. Proporcionando seguimiento de la productividad de ejecutivos comerciales.</p><span class="badge bg-dark">CentOS 7</span><span class="badge bg-dark">Python 3.7</span><span class="badge bg-dark">Crontab</span><span class="badge bg-dark">Python API REST Bitrix24</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 item">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-5 align-self-center"><a href="#"><img class="img-fluid" src="assets/img/helpdesk.png"></a></div>
+                            <div class="col">
+                                <h3 class="name">HelpDesk&nbsp;</h3>
+                                <p class="description">Herramienta de gestión interna de tickets. Proporciona herramientas para la comunicación con clientes y flujos de trabajo automatizados.</p><span class="badge bg-dark">Business Process Bitrix24</span><span class="badge bg-dark">PHP 7.4</span><span class="badge bg-dark">Vanilla JS</span><span class="badge bg-dark"></span><span class="badge bg-dark">jQuery</span><span class="badge bg-dark">AJAX</span><span class="badge bg-dark">Bootstrap 5.0</span><span class="badge bg-dark">animate.css</span><span class="badge bg-dark">moment.js/day.js</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 item">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-5 align-self-center"><a href="#"><img class="img-fluid" src="assets/img/login.png"></a></div>
+                            <div class="col">
+                                <h3 class="name">PowerNet&nbsp;</h3>
+                                <p class="description">Portal de Gestión entre PowerSelf y sus diversos clientes.&nbsp;</p><span class="badge bg-dark">Business Process Bitrix24</span><span class="badge bg-dark">PHP 7.4</span><span class="badge bg-dark">Vanilla JS</span><span class="badge bg-dark"></span><span class="badge bg-dark">jQuery</span><span class="badge bg-dark">AJAX</span><span class="badge bg-dark">Bootstrap 5.0</span><span class="badge bg-dark">moment.js/day.js</span><span class="badge bg-dark">Chart.js</span><span class="badge bg-dark"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 item">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-5 align-self-center"><a href="#"><img class="img-fluid" src="assets/img/cmdb.png"></a></div>
+                            <div class="col">
+                                <h3 class="name">CMDB Inventario de Hardware</h3>
+                                <p class="description">Proporciona herramientas para gestión y control de inventario de Hardware.</p><span class="badge bg-dark">Business Process Bitrix24</span><span class="badge bg-dark">PHP 7.4</span><span class="badge bg-dark">SQL Query</span><span class="badge bg-dark">API REST Bitrix24</span><span class="badge bg-dark">Vanilla JS</span><span class="badge bg-dark">jQuery</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 item">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-5 align-self-center"><a href="https://www.powerself.com.mx/calendario/"><img class="img-fluid" src="assets/img/calendario.png"></a></div>
+                            <div class="col">
+                                <h3 class="name">Herramienta de Agenda de Videoconferencias</h3>
+                                <p class="description">Agenda una reunión con ejecutivos. A través de una plataforma accesible para cualquier prospecto.&nbsp;</p><span class="badge bg-dark">PHP 7.4</span><span class="badge bg-dark">API REST Bitrix24</span><span class="badge bg-dark">Vanilla JS</span><span class="badge bg-dark">jQuery</span><span class="badge bg-dark"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 item">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-5 align-self-center"><a href="#"><img class="img-fluid" src="assets/img/calidad.jpg"></a></div>
+                            <div class="col">
+                                <h3 class="name">Herramienta para registro Calidad Mensual</h3>
+                                <p class="description">Apoya a dar seguimiento de la calidad de los servicios con los clientes. Por otro lado envía un correo electrónico personalizado dependiendo la calificación obtenida.&nbsp;</p><span class="badge bg-dark">Business Process Bitrix24</span><span class="badge bg-dark">PHP 7.4</span><span class="badge bg-dark">API REST Bitrix24</span><span class="badge bg-dark">Vanilla JS</span><span class="badge bg-dark">jQuery</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
+            </div>
+        </section>
+    </div>
+    <section id="cv" class="highlight-clean">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center" style="font-family: 'Roboto Condensed', sans-serif;">Curriculum Vitae</h2>
+                <p class="text-center" style="font-family: 'Roboto Condensed', sans-serif;">¡Gracias por interesarte en mi perfil!. Si lo deseas puedes descargar mi CV en el siguiente botón.&nbsp;</p>
+            </div>
+            <div class="buttons"><a class="btn btn-primary" role="button" href=" https://docs.google.com/uc?export=download&amp;id=1g9QS8TAn0K2V7CkVcadKzLwPqKpeYny3" style="border-radius: 30px;font-family: 'Roboto Condensed', sans-serif;">Descargar</a></div>
+        </div>
+    </section>
+    <footer class="footer-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col item social"><a href="https://www.facebook.com/esau.acosta.5/"><i class="icon ion-social-facebook"></i></a><a href="https://github.com/ezero0"><i class="icon ion-social-github"></i></a><a href="https://www.linkedin.com/in/esau-acosta-9817b6200/"><i class="icon ion-social-linkedin"></i></a></div>
             </div>
         </div>
-    </div>
-    <footer class="page-footer">
-        <div class="container">
-            <div class="links"><a href="#">About me</a><a href="#">Contact me</a><a href="#">Projects</a></div>
-            <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram-outline"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
-        </div>
     </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
